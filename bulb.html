@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Switch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-bulb">
+        <img class="layer show" id="l-off"   src="Imahe/bulboff.jpg"   alt="">
+        <img class="layer"      id="l-start" src="Imahe/bulbstart.jpg" alt="">
+        <img class="layer"      id="l-on"    src="Imahe/bulbon.jpg"    alt="">
+    </div>
+
+    <div id="glow"></div>
+    <img id="photo" src="Imahe/photo.png" alt="">
+    <p id="hint">Click the bulb or the switch</p>
+
+    <div class="switch">
+        <button class="btn" id="btn" aria-label="Toggle light"></button>
+    </div>
+
+    <audio src="Imahe/buttones.mp3" id="audio" preload="auto"></audio>
+    <audio src="Imahe/Button hummock.mp3" id="light_hum" preload="auto" loop></audio>
+
+    <script src="light.js"></script>
+</body>
+</html>
